@@ -1,0 +1,32 @@
+/* App.css (or your preferred CSS file) */
+
+.gift-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .gift-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    h3 {
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+  
+    p {
+      margin: 8px 0;
+      font-size: 14px;
+    }
+  }
+  
